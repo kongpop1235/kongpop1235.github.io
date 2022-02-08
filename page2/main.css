@@ -1,5 +1,6 @@
 #main-title {
-    color: gray;
+    font-size: 10rem;
+    color: rgb(255, 153, 0);
 }
 .paragraph-one {
     border: 2px solid lightgrey;
