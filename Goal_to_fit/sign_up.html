@@ -6,26 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goal to fit</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/sign_up.css">
 </head>
 
 <body>
-    <body>
-        <section>
-            <div>Sign Up</div>
-            <label for="">Email</label>
-            <input type="text">
-            <hr>
-            <label for="">Password</label>
-            <input type="text">
-            <hr>
-            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-            <p>I agree to the <a href="#">Terms of Services</a> and <a href="#">Privacy Policy.</a></p>
-            <button>CONTINUE</button>
-            <p>Have an  Account? Sign In</p>
-            <a href="#">Sign In</a>
-            </section>
-        <footer>@Copy Right 2022 : Goal to fit</footer>
-    </body>
+    <section class="d-flex align-center text-primary">
+        <div>
+            <h1 class="mb-24">Sign Up</h1>
+            <div class="mb-24">
+                <label for="">Email</label>
+                <br>
+                <input class="w-500 field" placeholder="Your email address" type="text">
+            </div>
+            <div class="mb-24">
+                <label for="">Password</label>
+                <br>
+                <input class="w-500 field" placeholder="Your password" type="text">
+            </div>
+            <div class="mb-24">
+                <input class="d-inline" type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <p class="d-inline">I agree to the <a href="#">Terms of Services</a> and <a href="#">Privacy Policy.</a></p>
+            </div>
+            <button class="mb-24 h-40 text-center" id="btn-continue">CONTINUE</button>
+            <p class="text-center">Have an Account? Sign In <a href="#">Sign In</a></p>
+        </div>
+    </section>
+    <footer>@Copy Right 2022 : Goal to fit</footer>
 </body>
 
 </html>

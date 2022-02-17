@@ -50,11 +50,15 @@ footer {
 }
 a {
   text-decoration: none;
+  color: #f85f6a;
 }
 
 /*defuls*/
 .d-flex {
   display: flex;
+}
+.d-inline {
+  display: inline-block;
 }
 .align-center {
   align-items: center;
@@ -70,6 +74,9 @@ a {
 }
 .h-40 {
   height: 40px;
+}
+.w-100p{
+  width: 100%;
 }
 .w-240 {
   width: 240px;
